@@ -1,0 +1,636 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav
+{
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-menu 
+{
+    margin: auto;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-menu i
+{
+    color: green;
+}
+.nav-menu b 
+{
+    color: black;
+}
+.login a i
+{
+    font-size: 17px;
+    color: green;
+}
+a 
+{
+    text-decoration: none;
+    color: black;
+}
+b:hover
+{
+    color: green;
+    transition: all ease-in-out 0.2s;
+}
+.div1
+{
+    height: 120px;
+    width: 100%;
+}
+.logo
+{
+    width: 90%;
+    height: 110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo img
+{
+    height: 80px;
+    width: 200px;
+}
+.menu
+{
+    position: relative;
+}
+.menu a b
+{
+    padding: 0px 10px;
+}
+.menu1
+{
+    position: absolute;
+}
+.searchbar 
+{
+    display: flex;
+    align-items: center;
+}
+.search 
+{
+    width: 400px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.cart i
+{
+    font-size: 28px;
+    color: black;
+}
+i:hover
+{
+    color: green;
+    transition: all ease-in-out 0.2s;
+}
+.div2
+{
+    width: 100%;
+    height: 554px;
+    display: flex;
+    overflow: hidden;
+}
+.image1
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.image1 img
+{
+    width: 70%;
+    height: 554px;
+    position: relative;
+}
+h2
+{
+    display: block;
+    height: 115px;
+    width: 700px;
+    font-size: 46px;
+    top: 50%;
+    position: absolute;
+    color: white;
+    padding-left: 5%;
+}
+p
+{
+    height: 40px;
+    width: 700px;
+    display: block;
+    font-size: 25px;
+    position: absolute;
+    color: white;
+    top: 70%;
+    padding-left: 5%;
+}
+.btn
+{
+    position: absolute;
+    top: 80%;
+    padding-left: 5%;
+}
+.btn button
+{
+    border: 2px;
+    background-color: rgb(64, 159, 64);
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 130%;
+    border-radius: 4px;
+}
+button:hover
+{
+    background-color: green;
+    color: black;
+}
+.image2
+{
+    padding-left: 5px; 
+    overflow: hidden;
+    height: 600px;
+}
+.image2 img
+{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    transition: all 0.4s;
+}
+.image2:hover img
+{
+    transform: scale(1.1);
+}
+h6
+{
+    height: 80px;
+    width: 370px;
+    top: 45%;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    padding-left: 2%;
+}
+.image3
+{
+    overflow: hidden;
+}
+.image3 img 
+{
+    width: 100%;
+    height: 251px;
+    position: relative;
+}
+/* .image3 img h5
+{
+    height: 80px;
+    width: 370px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    padding-left: 2%; 
+} */
+.div3
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div3 i
+{
+    color: black;
+    font-size: 19px;
+}
+hr
+{
+    border: 1px solid lightgray;
+}
+.div4
+{
+    width: 100%;
+    height: 400px;
+    padding: 20px 0px;
+}
+h1
+{
+    text-align: center;
+    padding: 20px 0px;
+}
+.photos
+{
+    width: 100%;
+    /* height: 400px; */
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.photos img
+{
+    width: 14%;
+    height: 240px;
+    transition: all 0.2s;
+}
+.photocontent
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.photocontent h4
+{
+    width: 14%;
+    font-size: 15px;
+    color: black;
+    line-height: 25px;
+}
+.photocontent h4 i
+{
+    color: rgb(10, 35, 177);
+}
+.div5
+{
+    width: 100%;
+    height: 400px;
+    padding: 20px 0px;
+}
+.smallphotos
+{
+    width: 100%;
+    /* height: 150px; */
+    padding: 10px 0px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.smallphotos img
+{
+    width: 10%;
+    height: 150px;
+}
+.smallcontent
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.smallcontent a
+{
+    color: black;
+    font-size: 17px;
+    width: 10%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.smallcontent a:hover
+{
+    color: darkgreen;
+}
+.Items
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Items a
+{
+    width: 10%;
+    line-height: 20px;
+    color: darkolivegreen;
+    text-align: center;
+}
+.div6
+{
+    width: 100%;
+    display: flex;
+}
+.pic1
+{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.pic1 img
+{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.pic1:hover img
+{
+    transform: scale(1.1);
+}
+/* .pic1 img h5
+{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    font-size: 20px;
+    top: 20%;
+    left: 10%;
+    display: block;
+    color: red;
+} */
+.pic2
+{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.pic2 img
+{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.pic2:hover img
+{
+    transform: scale(1.1);
+}
+.div7
+{
+    width: 100%;
+}
+h1
+{
+    padding: 45px 0px;
+    color:  black;
+    text-decoration: underline darkred;
+}
+.pics
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+.pics img
+{
+    width: 200px;
+    height: 250px;
+}
+.pics:hover img
+{
+    transform: scale(1.1);
+}
+.div8
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div8 h3
+{
+    width: 200px;
+    line-height: 25px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.div8 h3 i
+{
+    color: darkblue;
+}
+.blog
+{
+    width: 100%;
+}
+.blogpic 
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blogpic img
+{
+    height: 250px;
+    width: 30%;
+}
+.blogcontent
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blogcontent a
+{
+    font-size: 20px;
+    width: 30%;
+    height: 50px;
+    padding-top: 10px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blogcontent a:hover
+{
+    color: darkgreen;
+}
+.div9
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div9 h5
+{
+    width: 30%;
+    color: gray;
+    font-size: 18px;
+}
+.div10
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: lightgrey;
+    border-bottom: 2px solid gray;
+    padding: 0px 60px;
+}
+.icons
+{
+    margin-top: 5%;
+    width: 20%;
+    height: 400px;
+}
+.icons i
+{
+    font-size: 20px;
+    width: 50px;
+    height: 10px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
+.icons i:hover
+{
+    color: green;
+}
+.about
+{
+    width: 20%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.about a 
+{
+    padding-top: 10px;
+    color: black;
+    line-height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about a:hover
+{
+    color: darkgreen;
+    text-decoration: underline;
+}
+.about b
+{
+    color: black;
+}
+.customer
+{
+    width: 20%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.customer a
+{
+    padding-top: 10px;
+    color: black;
+    line-height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.customer a:hover
+{
+    color: darkgreen;
+    text-decoration: underline;
+}
+.customer b
+{
+    color: black;
+}
+.catalogue
+{
+    width: 20%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.catalogue a
+{
+    padding-top: 10px;
+    color: black;
+    line-height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.catalogue a:hover
+{
+    color: darkgreen;
+    text-decoration: underline;
+}
+.catalogue b
+{
+    color: black;
+}
+.NEWS
+{
+    width: 20%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.news
+{
+    display: flex;
+    align-items: center;
+}
+.news b
+{
+    color: black;
+    font-size: 15px;
+}
+.news i
+{
+    color: darkgreen;
+    font-size: 32px; 
+}
+.ctn
+{
+    position: relative;
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+}
+.ctn h6
+{
+    width: 300px;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+}
+.signbtn
+{
+    width: 20%;
+    padding-top: 15%;
+}
+.signbtn button
+{
+    border: 2px solid darkgreen;
+    color: white;
+    border-radius: 2%;
+    background-color: darkgreen;
+    width: 200px;
+    padding: 10px 10px;
+}
+.signbtn button:hover
+{
+    color: black;
+    background-color: green;
+}
+.div11
+{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 20px;
+}
